@@ -19,14 +19,16 @@ from wikipediaapi import Wikipedia, ExtractFormat
 # Setup
 app = Flask(__name__)
 matplotlib.use('Agg')
-nltk.download('punkt', quiet=True)
-nltk.download('stopwords', quiet=True)
-nltk.download('averaged_perceptron_tagger', quiet=True)
+import nltk
+nltk.download('punkt', download_dir='nltk_data')
+nltk.download('stopwords', download_dir='nltk_data')
+nltk.download('averaged_perceptron_tagger', download_dir='nltk_data')
+
 
 # Directories
 for d in ['user_engagement', 'feedback_data', 'knowledge_base', 'nltk_data']:
     os.makedirs(d, exist_ok=True)
-nltk.data.path.append('nltk_data')
+nltk.data.path.append('./nltk_data')
 
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36',
