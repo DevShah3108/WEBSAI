@@ -1,0 +1,64 @@
+{
+  "sessions": [
+    {
+      "timestamp": "2025-07-18T14:47:31.827985",
+      "question": "Hello! How can I assist you today?\n                        Was this helpful?\n                        \ud83d\udc4d Yes\n                        \ud83d\udc4e No\n                    ",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:48:00.598906",
+      "question": "what is computer",
+      "response_time": 20.481846809387207,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T14:49:17.603409",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:49:19.278410",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:49:20.604480",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:49:20.990490",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:49:21.414545",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:49:21.668346",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:49:22.045319",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    },
+    {
+      "timestamp": "2025-07-18T14:49:22.540937",
+      "question": "MacsThe Macintosh computer was introduced in 1984, and it was the first widely sold personal computer with a graphical user interface, or GUI (pronounced gooey).",
+      "response_time": 0,
+      "feedback": "positive"
+    }
+  ]
+}

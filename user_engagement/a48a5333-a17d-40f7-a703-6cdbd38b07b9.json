@@ -1,0 +1,70 @@
+{
+  "sessions": [
+    {
+      "timestamp": "2025-07-18T14:53:01.852914",
+      "question": "what is computer?",
+      "response_time": 15.010733604431152,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:14:22.560978",
+      "question": "computer",
+      "response_time": 34.262402057647705,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:22:35.347613",
+      "question": "what is computers?",
+      "response_time": 39.94296073913574,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:25:35.570076",
+      "question": "what is computer?",
+      "response_time": 43.024890184402466,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:28:39.428551",
+      "question": "what is computers?",
+      "response_time": 41.83557605743408,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:30:16.589662",
+      "question": "explain computer",
+      "response_time": 38.91745066642761,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:32:12.492453",
+      "question": "how much inia population?",
+      "response_time": 39.373875856399536,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:46:51.265926",
+      "question": "computer",
+      "response_time": 34.864447832107544,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T15:55:29.981898",
+      "question": "computer",
+      "response_time": 40.000800132751465,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T16:00:07.018788",
+      "question": "computer",
+      "response_time": 47.8845739364624,
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-18T16:21:07.660414",
+      "question": "what is computer?",
+      "response_time": 44.74926805496216,
+      "feedback": null
+    }
+  ]
+}
