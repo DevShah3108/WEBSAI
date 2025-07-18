@@ -25,6 +25,7 @@ nltk.download('stopwords', download_dir='nltk_data')
 nltk.download('averaged_perceptron_tagger', download_dir='nltk_data')
 
 
+
 # Directories
 for d in ['user_engagement', 'feedback_data', 'knowledge_base', 'nltk_data']:
     os.makedirs(d, exist_ok=True)
