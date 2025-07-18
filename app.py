@@ -53,7 +53,7 @@ COMMON_PHRASES = {
     r"\b(how are you|how's it going)\b": 
         "I'm a digital assistant, but I'm functioning well! How can I help you?",
     r"\b(who are you|what are you)\b": 
-        "I'm WEBSAI, your web-search assistant. I can find information and summarize web content for you!",
+        "I'm INFOSYNTH, your web-search assistant. I can find information and summarize web content for you!",
     r"\b(help|support|instructions)\b":
         "I can help you with: \n- Factual questions \n- Educational topics \n- Research summaries \nJust ask me anything!"
 }
@@ -78,7 +78,7 @@ def serve_static(filename):
 
 @app.route('/api/messages/initial', methods=['GET'])
 def initial_message():
-    return jsonify({"messages":[{"sender":"bot","content":"Hello! I'm WEBSAI, your web-search assistant. Ask me anything!"}]})
+    return jsonify({"messages":[{"sender":"bot","content":"Hello! I'm INFOSYNTH, your web-search assistant. Ask me anything!"}]})
 
 def track_engagement(session_id, question, response_time, feedback=None):
     data = {"timestamp": datetime.now().isoformat(), "question": question, "response_time": response_time, "feedback": feedback}
@@ -267,7 +267,7 @@ def fetch_entity_images(query, max_images=5):
     # Attempt 4: Wikipedia page images
     try:
         wiki_wiki = Wikipedia(
-            user_agent=f'WEBSAI/1.0 ({random.choice(USER_AGENTS)})',
+            user_agent=f'INFOSYNTH/1.0 ({random.choice(USER_AGENTS)})',
             language='en'
         )
         page = wiki_wiki.page(query)
@@ -417,7 +417,7 @@ def get_wikipedia_summary(query):
     """Get structured summary from Wikipedia"""
     try:
         wiki_wiki = Wikipedia(
-            user_agent='WEBSAI/1.0 (https://github.com/your-repo)',
+            user_agent='INFOSYNTH/1.0 (https://github.com/your-repo)',
             language='en',
             extract_format=ExtractFormat.WIKI  # Fixed format
         )
