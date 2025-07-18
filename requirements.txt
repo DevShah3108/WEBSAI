@@ -1,0 +1,7 @@
+Flask
+gunicorn
+requests
+googlesearch-python
+newspaper3k
+nltk
+matplotlib
