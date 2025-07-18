@@ -10,3 +10,6 @@ beautifulsoup4>=4.12.3
 wikipedia-api==0.6.0
 networkx>=3.3
 markupsafe>=2.1.5
+lxml
+lxml_html_clean
+
