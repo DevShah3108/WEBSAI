@@ -5,3 +5,4 @@ googlesearch-python
 newspaper3k
 nltk
 matplotlib
+lxml_html_clean
